@@ -6,7 +6,7 @@
 - **API:** - TBD
 
 ## B
-- **Branch** -TBD
+- **Branch** - En separat linje for koding.
 
 ## C
 - **Commit** - TBD
