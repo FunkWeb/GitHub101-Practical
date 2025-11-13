@@ -1,0 +1,30 @@
+name: ci
+on:
+  pull_request:
+  push:
+
+env:
+  COURSE_BRANCH: github101-kurs
+
+jobs:
+  base-branch-guard:
+    if: github.event_name == 'pull_request'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Feil hvis PR har feil base branch
+        run: |
+          if [ "${{ github.base_ref }}" != "${{ env.COURSE_BRANCH }}" ]; then
+            echo "::error::PR må ha base branch = '${{ env.COURSE_BRANCH }}', ikke '${{ github.base_ref}}'."
+            exit 1
+          fi
+
+  ingen-tbd:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Feil hvis "TBD" finnes
+        run: |
+          if grep -R "TBD" -n --include="*md" spor konflikter; then
+            echo "::error:: Fant TBD-plassholdere. Vennligst full ut teksten"
+            exit 1
+          fi
