@@ -11,7 +11,7 @@ jobs:
     if: github.event_name == 'pull_request'
     runs-on: ubuntu-latest
     steps:
-      - name: Fail if PR targets wrong base branch
+      - name: Feil hvis PR har feil base branch
         run: |
           if [ "${{ github.base_ref }}" != "${{ env.COURSE_BRANCH }}" ]; then
             echo "::error::PR må ha base branch = '${{ env.COURSE_BRANCH }}', ikke '${{ github.base_ref}}'."
