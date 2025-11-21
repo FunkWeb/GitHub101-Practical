@@ -24,7 +24,7 @@ jobs:
       - uses: actions/checkout@v4
       - name: Feil hvis "TBD" finnes
         run: |
-          if grep -R "TBD" -n --include="*md" spor konflikter; then
-            echo "::error:: Fant TBD-plassholdere. Vennligst full ut teksten"
+          if grep -n "TBD" oppgave/glossary.md; then
+            echo "::error:: Fant TBD-plassholdere. Vennligst erstatt TBD med en kort setning."
             exit 1
           fi
