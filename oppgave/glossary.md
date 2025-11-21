@@ -1,6 +1,6 @@
 # Gloser
 
-**Glose:** - En konsis definisjons setning. <!-- HOTSPOT: Denne vil endres under øvelsen -->
+**Glose:** - En konsis definisjons setning. Har du husket å fetche? <!-- HOTSPOT: Denne vil endres under øvelsen -->
 
 ## A
 - **API:** - Noe man bruker som gjør at en eller flere enheter/nettsider får tilgang til innholdet med en API, en slags kode eller litt som en URL.
