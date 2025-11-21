@@ -1,6 +1,6 @@
 # Gloser
 
-**Glose:** - En konsis definisjons setning. Tester endring <!-- HOTSPOT: Denne vil endres under øvelsen -->
+**Glose:** - En konsis definisjons setning. Har du husket å fetche? <!-- HOTSPOT: Denne vil endres under øvelsen -->
 
 ## A
 - **API:** - TBD
