@@ -38,7 +38,7 @@ Vi bruker **Kursgrenen**: `github101-kurs` (IKKE `main`)
 6. Opprett Pull Request
 <br>Fra din fork -> **compare & pull request**
     - Base branch ```github101-kurs```
-    - compare: ```feature/<ditt navn>```
+    - compare: ```doc/<ditt navn>```
 
 7. Hvis det oppstår konflikter
     ```bash
