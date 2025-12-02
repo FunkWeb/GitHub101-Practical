@@ -1,6 +1,6 @@
 # Gloser
 
-**(eksempel) Glose:** - En kort definisjons av glosen. <!-- HOTSPOT: Denne vil endres under øvelsen -->
+**(eksempel) Glose:** - Har du fått med deg denne endringen?. <!-- HOTSPOT: Denne vil endres under øvelsen -->
 
 ## B
 - **Branch** -TBD
