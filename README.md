@@ -17,7 +17,7 @@ Vi bruker **Kursgrenen**: `github101-kurs` (IKKE `main`)
 3. Når **codespace** er opprettet: velg **branch = `github101-kurs`**
 3. I **codespace** terminalen:
     ```bash
-    git checkout -b feature/<ditt navn>     #din arbeidsgren for kurset
+    git checkout -b doc/<ditt navn>     #din arbeidsgren for kurset
     git remote add upstream https://github.com/Funkweb/GitHub101-Practical.git
     git fetch upstream
     ```
