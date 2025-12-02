@@ -1,6 +1,6 @@
 # Gloser
 
-**(eksempel) Glose:** - Har du fått med deg denne endringen?. <!-- HOTSPOT: Denne vil endres under øvelsen -->
+**(eksempel) Glose:** - Har du fått med deg denne endringen? Husket å gjøre fetch?. <!-- HOTSPOT: Denne vil endres under øvelsen -->
 
 ## B
 - **Branch** -TBD
