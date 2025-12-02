@@ -1,9 +1,6 @@
 # Gloser
 
-**Glose:** - En konsis definisjons setning. <!-- HOTSPOT: Denne vil endres under øvelsen -->
-
-## A
-- **API:** - TBD
+**(eksempel) Glose:** - En kort definisjons av glosen. <!-- HOTSPOT: Denne vil endres under øvelsen -->
 
 ## B
 - **Branch** -TBD
